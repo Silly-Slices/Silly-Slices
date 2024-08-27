@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    position: relative; /* Make body a positioning context */
+}
+
+#fireworkCanvas {
+    position: fixed; /* Position the fireworks canvas fixed */
+    background-color: #000;
+    margin: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.shadowfilter {
+    -webkit-filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.5));
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    padding-top: 0.5%;
+    height: auto;
+    width: 40%;
+}
+
+.date {
+    align-items: center;
+    justify-content: center;
+    padding-top: 50%;
+    padding-left: 17%;
+    position: absolute;
+    display: flex;
+    color: white;
+    text-align: auto;
+}
+
+.timer {
+    position: absolute;
+    left: 70%;
+}
+
+#instalink {
+    position: fixed;
+    top: 35%;
+    left: 20%;
+}
+
+#follow {
+    position: fixed;
+    transform: translateY(-1400%);
+    left: 19.1%;
+    color: white;
+}
