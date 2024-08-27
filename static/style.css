@@ -32,7 +32,7 @@ body {
     margin: auto;
     padding-top: 0.5%;
     height: auto;
-    width: 40%;
+    width: 50%;
 }
 
 .date {
@@ -53,6 +53,6 @@ body {
 
 #instalink {
     position: fixed;
-    top: 35%;
+    top: 40%;
     left: 20%;
 }
