@@ -56,10 +56,3 @@ body {
     top: 35%;
     left: 20%;
 }
-
-#follow {
-    position: fixed;
-    transform: translateY(-1400%);
-    left: 19.1%;
-    color: white;
-}
