@@ -30,7 +30,7 @@ body {
 .logo {
     display: block;
     margin: auto;
-    padding-top: 0.5%;
+    padding-top: 2%;
     height: auto;
     width: 50%;
 }
@@ -49,10 +49,11 @@ body {
 .timer {
     position: absolute;
     left: 65%;
+    padding-top: 5%;
 }
 
 #instalink {
     position: fixed;
-    top: 40%;
+    top: 45%;
     left: 20%;
 }
